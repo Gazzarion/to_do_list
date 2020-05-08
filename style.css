@@ -1,0 +1,59 @@
+body {
+    background:gray;
+}
+.container {
+    background-color: seagreen;
+    width: 400px;
+    min-height: 200px;
+    border-radius: 10px;
+    margin: 100px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+h1 {
+    text-align: center;
+    color:white;
+    padding-top: 10px;
+}
+
+.add {
+    padding:5px 5px;
+    width: 183px;
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin-top:10px;
+    cursor: pointer;
+
+}
+checkbox {
+    border: 1px solid white;
+}
+.todo {
+    padding-left: 0; }
+    .todo li {
+      padding: 1em;
+      list-style-type: none; }
+      .todo li:not(:last-child)
+      {
+        border-bottom: 1px solid #000; }
+.text {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding:5px 5px;
+}
+
+.important {
+    font-weight: bold;
+    color: darkred;
+}
+
+li {
+    color: white;
+
+}
+label {
+    cursor: pointer;
+}
